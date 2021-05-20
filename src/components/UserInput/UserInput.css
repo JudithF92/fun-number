@@ -22,3 +22,7 @@ button {
 button:active {
 	transform: scale(0.98);
 }
+
+button:focus {
+	outline: none;
+}
