@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/fun-number-api/static/css/main.39b66b44.chunk.css",
+    "main.js": "/fun-number-api/static/js/main.9113d913.chunk.js",
+    "main.js.map": "/fun-number-api/static/js/main.9113d913.chunk.js.map",
+    "runtime-main.js": "/fun-number-api/static/js/runtime-main.9acc8691.js",
+    "runtime-main.js.map": "/fun-number-api/static/js/runtime-main.9acc8691.js.map",
+    "static/js/2.749264f7.chunk.js": "/fun-number-api/static/js/2.749264f7.chunk.js",
+    "static/js/2.749264f7.chunk.js.map": "/fun-number-api/static/js/2.749264f7.chunk.js.map",
+    "static/js/3.26cf2697.chunk.js": "/fun-number-api/static/js/3.26cf2697.chunk.js",
+    "static/js/3.26cf2697.chunk.js.map": "/fun-number-api/static/js/3.26cf2697.chunk.js.map",
+    "index.html": "/fun-number-api/index.html",
+    "static/css/main.39b66b44.chunk.css.map": "/fun-number-api/static/css/main.39b66b44.chunk.css.map",
+    "static/js/2.749264f7.chunk.js.LICENSE.txt": "/fun-number-api/static/js/2.749264f7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9acc8691.js",
+    "static/js/2.749264f7.chunk.js",
+    "static/css/main.39b66b44.chunk.css",
+    "static/js/main.9113d913.chunk.js"
+  ]
+}
