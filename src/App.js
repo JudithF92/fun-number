@@ -18,11 +18,16 @@ class App extends Component {
   }
 
   onClickButton = (event) => {
-    const url = 'http://numbersapi.com/' + this.state.input.trim() + '?json';  
-    fetch(url)
-      .then(response => response.json())
-      .then(data => this.setState({fact: data.text})) 
-      .catch(() => this.setState({fact: 'Please enter a valid form.'}))
+    fetch('https://mighty-fortress-04434.herokuapp.com/fact',{
+          method: 'post',
+          headers: {'Content-Type': 'application/json'},
+          body: JSON.stringify({
+            input: this.state.input
+          })
+    })
+    .then(response => response.json())
+    .then(data => this.setState({fact: data.text})) 
+    .catch(() => this.setState({fact: 'Please enter a valid form.'}))
   }
 
   render (){
