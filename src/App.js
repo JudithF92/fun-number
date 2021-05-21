@@ -26,7 +26,7 @@ class App extends Component {
           })
     })
     .then(response => response.json())
-    .then(data => this.setState({fact: data.text})) 
+    .then(data => this.setState({fact: data})) 
     .catch(() => this.setState({fact: 'Please enter a valid form.'}))
   }
 
